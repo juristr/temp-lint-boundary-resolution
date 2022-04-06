@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@myorg/tslib-a": ["libs/tslib-a/src/index.ts"],
+      "@myorg/tslib-b": ["libs/tslib-b/src/index.ts"],
+      "@myorg/tslib-c": ["libs/tslib-c/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

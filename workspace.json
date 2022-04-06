@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "tslib-a": "libs/tslib-a",
+    "tslib-b": "libs/tslib-b",
+    "tslib-c": "libs/tslib-c"
+  }
 }
